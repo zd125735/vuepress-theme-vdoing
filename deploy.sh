@@ -13,10 +13,10 @@ cd docs/.vuepress/dist
 echo 'javazd.cn' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:zd125735/vuepress-theme-vdoing.git
+  githubUrl=git@github.com:zd125735/zd125735.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://zd125735:${GITHUB_TOKEN}@github.com/zd125735/vuepress-theme-vdoing.git
+  githubUrl=https://zd125735:${GITHUB_TOKEN}@github.com/zd125735.github.io.git
   git config --global user.name "zhoudong"
   git config --global user.email "zhoudong507@126.com"
 fi
